@@ -1,0 +1,63 @@
+2025-04-30 01:39:52,185 - INFO - Initial - Memory usage: {'rss': 32.46875, 'vms': 400998.21875, 'percent': 0.19817352294921875}
+2025-04-30 01:39:52,185 - INFO - Request 1 Start - Memory usage: {'rss': 32.46875, 'vms': 400998.21875, 'percent': 0.19817352294921875}
+2025-04-30 01:39:52,681 - INFO - Request 1 End - Memory usage: {'rss': 34.765625, 'vms': 401064.203125, 'percent': 0.21219253540039062}
+2025-04-30 01:39:52,681 - INFO - Request 1 completed - Memory diff: {'rss_diff': 2.296875, 'vms_diff': 65.984375}, Response time: 0.50s, Status: 200
+2025-04-30 01:39:53,690 - INFO - Request 2 Start - Memory usage: {'rss': 34.765625, 'vms': 401064.203125, 'percent': 0.21219253540039062}
+2025-04-30 01:39:54,259 - INFO - Request 2 End - Memory usage: {'rss': 35.171875, 'vms': 401074.203125, 'percent': 0.21467208862304688}
+2025-04-30 01:39:54,260 - INFO - Request 2 completed - Memory diff: {'rss_diff': 0.40625, 'vms_diff': 10.0}, Response time: 0.57s, Status: 200
+2025-04-30 01:39:55,274 - INFO - Request 3 Start - Memory usage: {'rss': 35.203125, 'vms': 401082.203125, 'percent': 0.21486282348632812}
+2025-04-30 01:39:55,712 - INFO - Request 3 End - Memory usage: {'rss': 35.84375, 'vms': 401210.203125, 'percent': 0.21877288818359375}
+2025-04-30 01:39:55,712 - INFO - Request 3 completed - Memory diff: {'rss_diff': 0.640625, 'vms_diff': 128.0}, Response time: 0.44s, Status: 200
+2025-04-30 01:39:56,721 - INFO - Request 4 Start - Memory usage: {'rss': 35.84375, 'vms': 401210.203125, 'percent': 0.21877288818359375}
+2025-04-30 01:39:57,257 - INFO - Request 4 End - Memory usage: {'rss': 36.15625, 'vms': 401210.203125, 'percent': 0.22068023681640625}
+2025-04-30 01:39:57,258 - INFO - Request 4 completed - Memory diff: {'rss_diff': 0.3125, 'vms_diff': 0.0}, Response time: 0.53s, Status: 200
+2025-04-30 01:39:58,271 - INFO - Request 5 Start - Memory usage: {'rss': 36.125, 'vms': 401209.109375, 'percent': 0.220489501953125}
+2025-04-30 01:39:58,706 - INFO - Request 5 End - Memory usage: {'rss': 36.125, 'vms': 401209.109375, 'percent': 0.220489501953125}
+2025-04-30 01:39:58,707 - INFO - Request 5 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.43s, Status: 200
+2025-04-30 01:39:59,720 - INFO - Request 6 Start - Memory usage: {'rss': 36.125, 'vms': 401209.109375, 'percent': 0.220489501953125}
+2025-04-30 01:40:00,166 - INFO - Request 6 End - Memory usage: {'rss': 36.125, 'vms': 401209.109375, 'percent': 0.220489501953125}
+2025-04-30 01:40:00,167 - INFO - Request 6 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.44s, Status: 200
+2025-04-30 01:40:01,179 - INFO - Request 7 Start - Memory usage: {'rss': 36.125, 'vms': 401209.109375, 'percent': 0.220489501953125}
+2025-04-30 01:40:01,621 - INFO - Request 7 End - Memory usage: {'rss': 36.125, 'vms': 401209.109375, 'percent': 0.220489501953125}
+2025-04-30 01:40:01,622 - INFO - Request 7 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.44s, Status: 200
+2025-04-30 01:40:02,637 - INFO - Request 8 Start - Memory usage: {'rss': 36.140625, 'vms': 401209.109375, 'percent': 0.22058486938476562}
+2025-04-30 01:40:03,169 - INFO - Request 8 End - Memory usage: {'rss': 36.46875, 'vms': 401337.109375, 'percent': 0.22258758544921875}
+2025-04-30 01:40:03,169 - INFO - Request 8 completed - Memory diff: {'rss_diff': 0.328125, 'vms_diff': 128.0}, Response time: 0.53s, Status: 200
+2025-04-30 01:40:04,184 - INFO - Request 9 Start - Memory usage: {'rss': 36.46875, 'vms': 401337.109375, 'percent': 0.22258758544921875}
+2025-04-30 01:40:04,745 - INFO - Request 9 End - Memory usage: {'rss': 36.78125, 'vms': 401337.109375, 'percent': 0.22449493408203125}
+2025-04-30 01:40:04,745 - INFO - Request 9 completed - Memory diff: {'rss_diff': 0.3125, 'vms_diff': 0.0}, Response time: 0.56s, Status: 200
+2025-04-30 01:40:05,758 - INFO - Request 10 Start - Memory usage: {'rss': 36.78125, 'vms': 401337.109375, 'percent': 0.22449493408203125}
+2025-04-30 01:40:06,211 - INFO - Request 10 End - Memory usage: {'rss': 37.09375, 'vms': 401337.109375, 'percent': 0.22640228271484375}
+2025-04-30 01:40:06,211 - INFO - Request 10 completed - Memory diff: {'rss_diff': 0.3125, 'vms_diff': 0.0}, Response time: 0.45s, Status: 200
+2025-04-30 01:40:07,226 - INFO - Request 11 Start - Memory usage: {'rss': 37.09375, 'vms': 401337.109375, 'percent': 0.22640228271484375}
+2025-04-30 01:40:07,757 - INFO - Request 11 End - Memory usage: {'rss': 37.09375, 'vms': 401337.109375, 'percent': 0.22640228271484375}
+2025-04-30 01:40:07,757 - INFO - Request 11 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.53s, Status: 200
+2025-04-30 01:40:08,772 - INFO - Request 12 Start - Memory usage: {'rss': 37.09375, 'vms': 401337.109375, 'percent': 0.22640228271484375}
+2025-04-30 01:40:09,232 - INFO - Request 12 End - Memory usage: {'rss': 37.09375, 'vms': 401337.109375, 'percent': 0.22640228271484375}
+2025-04-30 01:40:09,233 - INFO - Request 12 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.46s, Status: 200
+2025-04-30 01:40:10,247 - INFO - Request 13 Start - Memory usage: {'rss': 37.09375, 'vms': 401337.109375, 'percent': 0.22640228271484375}
+2025-04-30 01:40:10,737 - INFO - Request 13 End - Memory usage: {'rss': 37.15625, 'vms': 401337.109375, 'percent': 0.22678375244140625}
+2025-04-30 01:40:10,737 - INFO - Request 13 completed - Memory diff: {'rss_diff': 0.0625, 'vms_diff': 0.0}, Response time: 0.49s, Status: 200
+2025-04-30 01:40:11,749 - INFO - Request 14 Start - Memory usage: {'rss': 37.109375, 'vms': 401337.109375, 'percent': 0.22649765014648438}
+2025-04-30 01:40:12,213 - INFO - Request 14 End - Memory usage: {'rss': 37.734375, 'vms': 401337.109375, 'percent': 0.23031234741210938}
+2025-04-30 01:40:12,213 - INFO - Request 14 completed - Memory diff: {'rss_diff': 0.625, 'vms_diff': 0.0}, Response time: 0.46s, Status: 200
+2025-04-30 01:40:13,221 - INFO - Request 15 Start - Memory usage: {'rss': 35.53125, 'vms': 401337.109375, 'percent': 0.21686553955078125}
+2025-04-30 01:40:13,652 - INFO - Request 15 End - Memory usage: {'rss': 35.53125, 'vms': 401337.109375, 'percent': 0.21686553955078125}
+2025-04-30 01:40:13,652 - INFO - Request 15 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.43s, Status: 200
+2025-04-30 01:40:14,664 - INFO - Request 16 Start - Memory usage: {'rss': 35.53125, 'vms': 401337.109375, 'percent': 0.21686553955078125}
+2025-04-30 01:40:15,227 - INFO - Request 16 End - Memory usage: {'rss': 35.546875, 'vms': 401337.109375, 'percent': 0.21696090698242188}
+2025-04-30 01:40:15,227 - INFO - Request 16 completed - Memory diff: {'rss_diff': 0.015625, 'vms_diff': 0.0}, Response time: 0.56s, Status: 200
+2025-04-30 01:40:16,233 - INFO - Request 17 Start - Memory usage: {'rss': 35.546875, 'vms': 401337.109375, 'percent': 0.21696090698242188}
+2025-04-30 01:40:16,799 - INFO - Request 17 End - Memory usage: {'rss': 35.546875, 'vms': 401337.109375, 'percent': 0.21696090698242188}
+2025-04-30 01:40:16,800 - INFO - Request 17 completed - Memory diff: {'rss_diff': 0.0, 'vms_diff': 0.0}, Response time: 0.57s, Status: 200
+2025-04-30 01:40:17,810 - INFO - Request 18 Start - Memory usage: {'rss': 34.453125, 'vms': 401337.109375, 'percent': 0.21028518676757812}
+2025-04-30 01:40:18,271 - INFO - Request 18 End - Memory usage: {'rss': 35.109375, 'vms': 401337.109375, 'percent': 0.21429061889648438}
+2025-04-30 01:40:18,271 - INFO - Request 18 completed - Memory diff: {'rss_diff': 0.65625, 'vms_diff': 0.0}, Response time: 0.46s, Status: 200
+2025-04-30 01:40:19,280 - INFO - Request 19 Start - Memory usage: {'rss': 34.265625, 'vms': 401337.109375, 'percent': 0.20914077758789062}
+2025-04-30 01:40:19,804 - INFO - Request 19 End - Memory usage: {'rss': 33.6875, 'vms': 401337.109375, 'percent': 0.2056121826171875}
+2025-04-30 01:40:19,805 - INFO - Request 19 completed - Memory diff: {'rss_diff': -0.578125, 'vms_diff': 0.0}, Response time: 0.52s, Status: 200
+2025-04-30 01:40:20,812 - INFO - Request 20 Start - Memory usage: {'rss': 33.609375, 'vms': 401337.109375, 'percent': 0.20513534545898438}
+2025-04-30 01:40:21,247 - INFO - Request 20 End - Memory usage: {'rss': 33.53125, 'vms': 401337.109375, 'percent': 0.20465850830078125}
+2025-04-30 01:40:21,248 - INFO - Request 20 completed - Memory diff: {'rss_diff': -0.078125, 'vms_diff': 0.0}, Response time: 0.43s, Status: 200
+2025-04-30 01:40:22,260 - INFO - Final - Memory usage: {'rss': 33.53125, 'vms': 401337.109375, 'percent': 0.20465850830078125}
+2025-04-30 01:40:22,261 - INFO - Total memory increase: {'rss_increase': 1.0625, 'vms_increase': 338.890625}
