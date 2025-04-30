@@ -8,6 +8,9 @@ import logging
 import tempfile
 import base64
 
+
+
+
 logger = logging.getLogger(__name__)
 
 def resize_image(img, max_size=128):
