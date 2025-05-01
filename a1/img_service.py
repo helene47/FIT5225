@@ -8,38 +8,38 @@ import base64
 import os
 import gc
 import numpy as np
-import psutil
+# import psutil
 from ultralytics import YOLO
 
 logger = logging.getLogger(__name__)
 
-def resize_image(img, max_size=128):
-    """
-    Resize image while maintaining aspect ratio
-    :param img: Input image in OpenCV format
-    :param max_size: Maximum size for the longer edge in pixels
-    :return: Resized image
-    """
-    height, width = img.shape[:2]
+# def resize_image(img, max_size=128):
+#     """
+#     Resize image while maintaining aspect ratio
+#     :param img: Input image in OpenCV format
+#     :param max_size: Maximum size for the longer edge in pixels
+#     :return: Resized image
+#     """
+#     height, width = img.shape[:2]
     
-    # Calculate scaling ratio based on the longer edge
-    if width > height:
-        scale = max_size / width
-    else:
-        scale = max_size / height
+#     # Calculate scaling ratio based on the longer edge
+#     if width > height:
+#         scale = max_size / width
+#     else:
+#         scale = max_size / height
     
-    # Return original image if it's already smaller than max_size
-    if scale >= 1:
-        return img
+#     # Return original image if it's already smaller than max_size
+#     if scale >= 1:
+#         return img
     
-    # Calculate new dimensions
-    new_width = int(width * scale)
-    new_height = int(height * scale)
+#     # Calculate new dimensions
+#     new_width = int(width * scale)
+#     new_height = int(height * scale)
     
-    # Resize image using area interpolation (best for downscaling)
-    # Resize in-place to avoid creating new array
-    resized_img = cv2.resize(img, (new_width, new_height), interpolation=cv2.INTER_AREA)
-    return resized_img
+#     # Resize image using area interpolation (best for downscaling)
+#     # Resize in-place to avoid creating new array
+#     resized_img = cv2.resize(img, (new_width, new_height), interpolation=cv2.INTER_AREA)
+#     return resized_img
 
 def write_temp_file(data: ImgData):
     """
@@ -85,10 +85,9 @@ def pose_estimation(data: ImgData, request: Request):
         results = request.app.state.model(
             temp_file_path,
             conf=0.25,
-            imgsz=640,
-            device='cpu',
-            half=False,
-            max_det=10
+            imgsz=128,
+            half=True,
+            max_det=1
         )
         
         # Clean up the temp file as soon as model is done with it
@@ -236,7 +235,13 @@ def pose_estimation_annotation(data: ImgData, request: Request):
             return {"error": "Could not read image"}
         
         # Run model inference
-        results = request.app.state.model(temp_file_path)
+        results = request.app.state.model(
+            temp_file_path,
+            conf=0.25,
+            imgsz=128,
+            half=True,
+            max_det=1
+        )
         
         # Clean up temp file immediately after model use
         if os.path.exists(temp_file_path):
@@ -340,8 +345,8 @@ def load_model():
     # 加载模型
     # logger.info(">> Loading model...")
     model = YOLO(model_path)
-    model.conf = 0.25  # 降低置信度阈值
-    model.max_det = 10  # 限制检测数量
+    # model.conf = 0.25  # 降低置信度阈值
+    # model.max_det = 1  # 限制检测数量
     # logger.info(">> Model loaded.")
 
     # 记录加载模型后的内存使用
