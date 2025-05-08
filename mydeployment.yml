@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pose-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pose-app
+  template:
+    metadata:
+      labels:
+        app: pose-app
+    spec:
+      containers:
+      - name: pose-app-container
+        image: lyla47/5225:latest
+        ports:
+        - containerPort: 60000
+        resources:
+          requests:
+            cpu: "0.5"
+            memory: "512Mi"
+          limits:
+            cpu: "0.5"
+            memory: "512Mi"
